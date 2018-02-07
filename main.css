@@ -1,0 +1,24 @@
+.jumbotron{
+  background-image: url("https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
+  background-color: #cccccc;
+}
+#fancy-first{
+  font-family: 'Courgette', cursive;
+}
+#fancy-last{
+  font-family: 'Nanum Pen Script', cursive;
+
+}
+.container{
+  text-align: right;
+}
+header{
+  color:white;
+}
+p{
+  font-family: "Courgette", cursive;
+  text-align: right;
+}
+{
+
+}
