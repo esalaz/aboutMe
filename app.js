@@ -11,11 +11,12 @@ $(document).ready(function() {
     scaleBannerVideoSize('.video-container .filter');
     scaleBannerVideoSize('.video-container video');
   });
-var navbar=$('.topnav');
-var position=navbar.offset().top;
   //========================================
+  var navbar = $('.topnav');
+  var position = navbar.offset().top;
+
   $(window).scroll(function(){
-    console.log($(window).scrollTop());
+    // console.log($(window).scrollTop());
     if ($(window).scrollTop() >= position) {
       navbar.addClass('navbar-fixed');
     }else{
