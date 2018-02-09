@@ -11,7 +11,21 @@ $(document).ready(function() {
     scaleBannerVideoSize('.video-container .filter');
     scaleBannerVideoSize('.video-container video');
   });
+var navbar=$('.topnav');
+var position=navbar.offset().top;
+  //========================================
+  $(window).scroll(function(){
+    console.log($(window).scrollTop());
+    if ($(window).scrollTop() >= position) {
+      navbar.addClass('navbar-fixed');
+    }else{
+      navbar.removeClass('navbar-fixed');
+    }
+  });
+
 });
+
+
 function scaleVideoContainer() {
 
     var height = $(window).height() + 5;
